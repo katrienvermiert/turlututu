@@ -1,0 +1,155 @@
+.container{
+    display: grid;
+    grid-template-rows: 45px 350px 70px 400px 70px 300px 300px 60px; 
+}
+.navbar1{
+    display: grid;
+    grid-template-columns: 75% 12.5% 12.5%;
+    background-color: rgb(53, 53, 53);
+}
+
+ul{
+    list-style-type: none;
+    margin: 1% 0 0 22%;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 14px;
+    margin-bottom: 2%;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.part2{
+    color: whitesmoke;
+    margin-top: 4%;
+    text-align: end;
+}
+
+.part3{
+    margin-top: 6%;
+    text-align: left;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 370px 926px;
+    grid-template-rows: 350px;
+    background-color: #0B93CA;
+}
+
+.photo{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.start{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #0B93CA;
+}
+
+img{
+    height: 300px;
+    margin-top: 25px;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+.button{
+    background-color: rgb(248, 141, 0);
+    padding: 20px 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin-left: 140px;
+}    
+
+.title1{
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: whitesmoke;
+    font-size: 1.1em;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: 648px 648px;
+    grid-template-rows: 200px 200px;
+    background-color: 0B93CA;
+}
+
+.one{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #0B93CA;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.two{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #0B93CA;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.three{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #0B93CA;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 40px
+}
+
+.four{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #0B93CA;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.title2{
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: whitesmoke;
+    font-size: 1.1em;
+}
+
+.logos{
+    background-color: rgb(236, 235, 235);
+}
+
+.links{
+    background-color: whitesmoke;
+}
+
+.navbar2{
+    background-color: rgb(53, 53, 53);
+}
